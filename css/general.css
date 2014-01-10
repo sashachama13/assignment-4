@@ -1,0 +1,116 @@
+@charset "UTF-8";
+/* Responsive Setup */
+
+/*@-moz-@viewport { wfth: device-width; scale: 1;}
+@-ms-viewport { wfth: device-width; scale: 1;}
+@-webkit-viewport { wfth: device-width; scale: 1;}
+@-o-viewport { wfth: device-width; scale: 1;}
+@-viewport { wfth: device-width; scale: 1;}
+*/
+
+/*
+html{
+	-moz-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+	-o-text-size-adjust: 100%;
+}
+/*
+
+/* CSS */
+
+
+nav ul {
+	text-align:left;
+	position:relative;
+	width: 100%;
+}
+
+nav li {
+	display: inline;		
+}
+
+
+nav{
+	
+	display:inline-block;
+	padding-bottom: 1rem;
+}
+
+
+html, body{
+		background-color: #FFF;
+		font-family: helvetica;
+		color: #999;
+		margin: 0;
+		padding-left: .5rem;
+		padding-top:0;
+		width: 100%;
+}
+
+main{
+	width:90%;
+}
+
+
+
+.logo {
+	width:5rem;
+	float: left;
+	padding-right: .27rem;
+}
+
+h2{
+	padding-top: 1rem;
+	color: #000;
+}
+
+h3{
+	color:#000;
+	Padding-top: 0rem;
+}
+
+h4{
+	color:#666;
+}
+
+img {
+	width:100%;
+}
+
+ul{
+	padding-bottom: 1rem;
+	padding-left:1rem;
+	list-style-type: square;
+}
+
+#footer{
+	text-align:center;
+}
+
+
+
+
+
+@media only screen and (min-width: 25em){
+	.logo { 
+		width: 5rem;
+	
+}
+
+@media only screen and (min-width: 35em){
+	.logo { 
+		width: 7rem;
+	}
+	
+	img { 
+		max-width: 35rem;
+	}
+}
+
+@media only screen and (min-width: 40em){
+	.logo { 
+		width: 10rem;
+	}
+	
+}
